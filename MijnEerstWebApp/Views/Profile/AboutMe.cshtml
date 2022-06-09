@@ -1,0 +1,5 @@
+﻿@model ProfileViewModel
+
+<h1>Welkom op de algemene pagina van @Model.FirstName @Model.LastName</h1>
+<p>@Model.FirstName zijn adres is @Model.Address.<br />
+    Hij is geboren op @Model.DOB. Hij heeft een @(Model.DrivingLicense ? "rijbewijs" : "geen rijbewijs").</p>
